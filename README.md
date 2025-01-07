@@ -19,3 +19,10 @@ Then run the app with the workaround (`pulsar-client-original` dependency) to se
 ```shell
 ./gradlew -PuseWorkaround run
 ```
+
+There's also another workaround which replaces the Pulsar shaded dependencies with the unshaded ones (`-original`). 
+To run it:
+
+```shell
+./gradlew -PuseResolutionStrategyWorkaround run
+```
