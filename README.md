@@ -26,3 +26,5 @@ To run it:
 ```shell
 ./gradlew -PuseResolutionStrategyWorkaround run
 ```
+
+Please check the [build.gradle.kts](build.gradle.kts) file for the workarounds. The example is for the Gradle Kotlin syntax. Similar workarounds can be applied to the Groovy syntax.
