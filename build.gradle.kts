@@ -16,6 +16,8 @@ dependencies {
     } else {
         implementation("org.apache.pulsar:pulsar-client:4.0.1")
     }
+    // when using the workaround, it's necessary to ensure that Netty libraries are aligned and use a recent Netty version
+    implementation(platform("io.netty:netty-bom:4.1.116.Final"))
 }
 
 application {
