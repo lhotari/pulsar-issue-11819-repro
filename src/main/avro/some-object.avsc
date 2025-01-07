@@ -1,0 +1,15 @@
+{
+  "name": "SomeObject",
+  "namespace": "test",
+  "type": "record",
+  "version": "1",
+  "fields" : [
+    {
+      "name": "startedAt",
+      "type": {
+        "type":  "long",
+        "logicalType": "timestamp-millis"
+      }
+    }
+  ]
+}
